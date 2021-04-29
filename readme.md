@@ -5,7 +5,10 @@
   </a>
 </p>
 
-> Find songs lyrics with the help of a plblic API
+> Find songs lyrics with the help of a public API lyrics.ovh
+> >
+>API consuming app with the use of cURL
+>
 
 ## Author
 
