@@ -1,0 +1,126 @@
+/* 
+Google Fonts:
+     font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+
+Colors:
+dark green: #168880;
+light green: #39bfbe;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #39bfbe;
+  height: 250px;
+  background-image: url('/img/header-bg-mobile.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+.search-form,
+.search-form legend {
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 3%;
+  width: 50%;
+}
+
+input[type='text']:focus {
+  border-color: #168880;
+}
+
+input[type='submit'] {
+  background-color: #39bfbe;
+  color: white;
+  border-color: #39bfbe;
+  width: 25%;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.error {
+  text-align: center;
+  color: #b65454;
+}
+
+.btn.rtrn-btn {
+  background-color: #39bfbe;
+  color: white;
+  border-color: #39bfbe;
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 3%;
+}
+
+button:hover,
+input[type='submit']:hover,
+.btn.rtrn-btn:hover {
+  background-color: white;
+  color: #39bfbe;
+}
+
+.content {
+  padding: 25px 25px 25px 25px;
+}
+
+.social {
+  margin-top: 25px;
+  text-align: center;
+}
+#github-icon {
+  top: 10px;
+  position: relative;
+}
+#home-icon {
+  top: 9px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.social-icon {
+  margin-left: 7px;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    background-image: url('/img/header-bg.jpg');
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 350px;
+    background-size: contain;
+  }
+  .content {
+    padding-top: 50px;
+  }
+}
